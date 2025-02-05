@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server/server.js"
+    "start": "nodemon server/server.js",
+    "seeder": "node server/utils/seeder.js"
   },
   "author": "moz",
   "license": "ISC",

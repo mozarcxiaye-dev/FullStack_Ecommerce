@@ -1,0 +1,56 @@
+[
+    {
+      "name": "Wireless Bluetooth Headphones",
+      "price": 89.99,
+      "description": "High-quality noise-canceling wireless headphones with 20hr battery life",
+      "ratings": 4.5,
+      "images": [
+        {
+          "public_id": "products/headphones_123",
+          "url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+        }
+      ],
+      "category": "Headphones",
+      "seller": "AudioMaster Inc",
+      "stock": 150,
+      "numberOfReviews": 25,
+      "reviews": [],
+      "createdAt": "2023-09-30T10:15:30.000Z"
+    },
+    {
+      "name": "Professional DSLR Camera",
+      "price": 1299.99,
+      "description": "24MP DSLR camera with 4K video recording and kit lens",
+      "ratings": 4.8,
+      "images": [
+        {
+          "public_id": "products/camera_456",
+          "url": "https://images.unsplash.com/photo-1512790182412-b19e6d62bc39"
+        }
+      ],
+      "category": "Cameras",
+      "seller": "PhotoPro Gear",
+      "stock": 75,
+      "numberOfReviews": 42,
+      "reviews": [],
+      "createdAt": "2023-09-28T14:30:00.000Z"
+    },
+    {
+      "name": "Organic Green Tea",
+      "price": 9.99,
+      "description": "Premium organic green tea leaves, 100g package",
+      "ratings": 4.2,
+      "images": [
+        {
+          "public_id": "products/tea_789",
+          "url": "https://images.unsplash.com/photo-1580930053524-4f20d7b23b9e"
+        }
+      ],
+      "category": "Food",
+      "seller": "Nature's Best",
+      "stock": 500,
+      "numberOfReviews": 15,
+      "reviews": [],
+      "createdAt": "2023-09-29T08:45:00.000Z"
+    }
+  ]
