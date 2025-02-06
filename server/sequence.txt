@@ -1,0 +1,24 @@
+
+
+
+15. ERROR_HANDLER -> 
+16. APPLY_ERROR_HANDLER_IN_CONTROLLER ->
+17. CREATE ASYNC_HANDLER ->
+18. APPLY_ASYNC_ERROR_HANDLER ->
+19. UNHANDLED_PROMISE_REJECTIONS -> mongodb
+20. SERVER.js => process.on
+21. HANDLER_UNCAUGHT_EXCEPTION -> server.js -> clog(a)
+-------------------------------------------------------
+22. WRONG_MONGO_ID_ERROR -> 
+23. MONGOOSE_VALIDATION_ERROR ->
+24. PRODUCT_SEARCH_KEYWORD -> utils -> API_FEATURES
+25. FILTER_PRODUCT -> SEARCH -> FILTER -> Get all product details
+26. ADDING_PAGINATION ->
+27. CREATE_MODEL_FOR_USER -> [npm i bycryptjs jsonwebtoken validator nodemailer cookie-parser body-parser]
+28. AUTH_CONTROLLER ->
+29. ROUTE_AUTH -> 
+30. APP_JS ->
+31. USER_MODEL_ENCRYPTION_FUNCTION -> 
+32. GENERATE_WEB_TOKEN ->
+33. LOGIN_USER ->
+34. COMPARE_PASSWORD ->

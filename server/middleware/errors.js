@@ -1,4 +1,4 @@
-// const ErrorHandler = require("../utils/errorHandling")
+const ErrorHandler = require("../utils/errorHandling")
 
 module.exports = (err, req, res, next) => {
 
@@ -6,6 +6,12 @@ module.exports = (err, req, res, next) => {
     err.message = err.message || "Internal Server Error"
 
     if (process.env.NODE_ENV === "DEVELOPMENT") {
+
+        if (err.name === 'ValidationError') {
+            const message = Object.values(err.errors).map(value => value.message)
+            err = new ErrorHandler(message, 400);
+        }
+
         res.status(err.statusCode).json({
             success: false,
             error: err,
@@ -17,6 +23,12 @@ module.exports = (err, req, res, next) => {
     if (process.env.NODE_ENV === "PRODUCTION") {
         let error = {...err}
         error.message = err.message
+
+        if (err.name === 'ValidationError') {
+            const message = Object.values(err.errors).map(value => value.message)
+            error = new ErrorHandler(message, 400);
+        }
+
         res.status(err.statusCode).json({
             success: false,
             errMessage: error.message || "Internal Server error"
