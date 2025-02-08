@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const ErrorHandler = require('../utils/errorHandling')
 const catchAsyncErrors = require('../middleware/catchAsyncErrors')
 
-
+// asyncError middleware implementation
 // Display all products => /api/v1/products [GET]
 exports.getProducts = catchAsyncErrors(
     async (req, res, next) => {
